@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .contents {
@@ -17,32 +18,12 @@ body {
   justify-content: space-between;
   align-items: center;
   transform:rotate(270deg);
+  transition-duration: 1s;
 }
 
 .contents:hover {
   transform: rotate(300deg);
   transition-duration: 1s;
-}
-
-.body {
-  width: 80%;
-  margin: 20px auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.member {
-  width: 20vw;
-  height: 20vw;
-  margin: 0 0 1vw 1vw;
-  background: black;
-}
-
-.art-work {
-  width: 20vw;
-  height: 80vw;
-  margin-bottom: 10px;
-  background: black;
 }
 
 .box {
@@ -53,4 +34,7 @@ body {
 .title h1 {
   font-size: 40px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1em;
+  margin: 0.1em;
+  transition-duration: 1s;
 }
