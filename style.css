@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contents {
+  position: absolute;
+  width: 95vh;
+  height: 95vh;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform:rotate(270deg);
+}
+
+.contents:hover {
+  transform: rotate(300deg);
+  transition-duration: 1s;
+}
+
+.box {
+  width: 40px;
+  border-top: solid 1px black;
+}
+
+.title h1 {
+  font-size: 40px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
