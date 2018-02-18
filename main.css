@@ -37,3 +37,13 @@ li {
 a {
   text-decoration: none;
 }
+
+img {
+  position: absolute;
+  margin: auto;
+  width: 60vw;
+  top: 800;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
