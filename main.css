@@ -43,6 +43,27 @@ a {
   color: #222;
 }
 
+.body {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.member {
+  width: 20vw;
+  height: 20vw;
+  margin: 0 0 1vw 1vw;
+  background: black;
+}
+
+.art-work {
+  width: 20vw;
+  height: 80vw;
+  margin-bottom: 10px;
+  background: black;
+}
+
 .box {
   width: 60%;
   top: 10px;
