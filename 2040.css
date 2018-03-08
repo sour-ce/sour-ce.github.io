@@ -3,9 +3,12 @@ ul {
   width: 100%;
 }
 
+div {
+  -webkit-writing-mode: vertical-lr;
+}
+
 .top-image {
   width: 100%;
-  margin-top: 8vw;
   height: 40vw;
 }
 
@@ -16,20 +19,29 @@ ul {
 
 .stair {
   width: 100%;
-  height: 90vw;
-  border-bottom: 1px solid #222222;
+  height: 80vw;
+}
+
+.stair-text {
+    margin-top: 10vw;
+    font-size: 2.6vw;
+    margin-left: 75vw;
+}
+
+.star-text h1 {
+  font-weight: bold;
 }
 
 .stair-image-left {
   position: relative;
-  margin-top: 45vw;
+  margin-top: 4vw;
   margin-left: 6vw;
   height: 45vw;
 }
 
 .stair-image-right {
   position: relative;
-  margin-top: 45vw;
+  margin-top: 4vw;
   margin-right: 6vw;
   float: right;
   height: 45vw;
