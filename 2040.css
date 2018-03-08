@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+.top-image {
+  width: 100%;
+  margin-top: 8vw;
+  height: 40vw;
+}
+
+.top-image-profile {
+  height: 40vw;
+  margin-left: 3vw;
+}
+
+.stair {
+  width: 100%;
+  height: 90vw;
+  border-bottom: 1px solid #222222;
+}
+
+.stair-image-left {
+  position: relative;
+  margin-top: 45vw;
+  margin-left: 6vw;
+  height: 45vw;
+}
+
+.stair-image-right {
+  position: relative;
+  margin-top: 45vw;
+  margin-right: 6vw;
+  float: right;
+  height: 45vw;
+}
